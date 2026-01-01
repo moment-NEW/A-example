@@ -1,3 +1,7 @@
+
+#include <vector>
+#include <cmath>
+
 class PointNode {
 public:
     int x,y;
@@ -14,3 +18,14 @@ private:
     int value;
     
 };
+
+// 内部函数
+float heuristic(PointNode& a, PointNode& b) {
+    // 使用曼哈顿距离作为启发式函数
+    return abs(a.x - b.x) + abs(a.y - b.y);
+}
+
+
+
+
+
