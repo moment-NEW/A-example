@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>a_star_demo</name>
+  <version>0.1.0</version>
+  <description>ROS 2 Jazzy demo node publishing nav_msgs/Path from a simple A* grid search.</description>
+  <maintainer email="user@example.com">a_star_demo_user</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+  </export>
+</package>
